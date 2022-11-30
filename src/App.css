@@ -1,0 +1,431 @@
+.menu-icon {
+	color: var(--green);
+	font-size: 36px;
+}
+.icon-44 {
+	width: 44px;
+	height: 44px;
+	justify-content: center;
+	align-items: center;
+}
+#logotip {
+	height: 44px;
+}
+#menu-btn {
+	border: none;
+	background: none;
+}
+.close-menu {
+	position: fixed;
+	right: 24px;
+	top: 24px;
+}
+.menu-content {
+	transition: 0.3s;
+	position: absolute;
+	inset: 0;
+	background-color: var(--white);
+	transform: translateX(100%);
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+.menu-content a {
+	font-weight: 500;
+	color: var(--green);
+	text-decoration: none;
+}
+.show-menu {
+	transform: translateX(0);
+	z-index: 1;
+}
+
+#hero {
+	padding: 24px;
+	justify-content: space-between;
+	gap: 64px;
+}
+.hero--paragraph {
+	font-style: italic;
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+.hero--text {
+	gap: 12px;
+}
+.call-to-action {
+	background-color: var(--green);
+	color: var(--white);
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 22px;
+	padding: 12px 16px;
+	width: 100%;
+	border: none;
+	border-radius: 9999px;
+}
+.hero-btn {
+	width: 100%;
+	text-decoration: none;
+}
+.hero-main {
+	gap: 44px;
+}
+.video-banner {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 16/9;
+	border-radius: 6px;
+	background-size: cover;
+	overflow: hidden;
+}
+.video-banner img {
+	height: 100%;
+	object-fit: cover;
+}
+.vrednost {
+	padding: 18px 12px;
+	gap: 16px;
+
+	align-items: center;
+	background: #ece3b6;
+	border-radius: 24px;
+	text-align: center;
+}
+.vrednost--title {
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+#vrednosti--grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	grid-template-rows: 1fr;
+	gap: 24px;
+}
+#vrednosti {
+	align-items: center;
+	gap: 32px;
+	padding: 1.5rem;
+	background-color: var(--green);
+}
+#feeding-dog-img {
+	max-width: 400px;
+	width: 100%;
+}
+footer {
+	background: #0b4a26;
+	padding: 1.5rem;
+}
+footer img {
+	width: 220px;
+	border: 16px solid #f7f3e0;
+	border-radius: 160px;
+	/* box-shadow: inset 16px 16px 16px #f7f3e0; */
+}
+footer .call-to-action {
+	background: #c7dbd0;
+	font-weight: 600;
+	color: #0b4a26;
+}
+.links {
+	flex-direction: row;
+	gap: 24px;
+	color: #dbc7d0 !important;
+}
+.footer--content {
+	gap: 24px;
+	align-items: center;
+	max-width: 1080px;
+}
+.footer--title {
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	text-align: center;
+
+	color: #c7dbd0;
+}
+.footer--more {
+	gap: 16px;
+	align-items: center;
+}
+footer a {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #c7dbd0;
+}
+.footer--info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	justify-content: space-between;
+	width: 100%;
+	gap: 24px;
+}
+
+.video {
+	position: absolute;
+	inset: 0;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	backdrop-filter: blur(4px);
+}
+.video-play-button {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+.service {
+	gap: 24px;
+	align-items: center;
+}
+.service--main {
+	gap: 16px;
+	padding-inline: 24px;
+}
+.service--main--title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+
+	color: #096832;
+}
+.services {
+	gap: 32px;
+}
+.percentage {
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 116px;
+}
+.stat--desc {
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+.stat {
+	width: min-content;
+}
+.stats {
+	align-items: center;
+	gap: 18px;
+}
+.stats--title {
+	font-weight: 700;
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.stats--container {
+	/* border-block: ; */
+	gap: 40px;
+	padding: 38px 24px;
+}
+.green-line {
+	height: 4px;
+
+	background: #096832;
+	border-radius: 20px;
+}
+.kako-radi {
+	padding: 24px;
+	text-align: center;
+}
+.services--title {
+	/* font-weight: 700; */
+	text-align: center;
+	/* font-size: 54px; */
+	padding-block: 32px;
+}
+.stats-desc {
+	font-size: 18px;
+	text-align: center;
+}
+#vrednosti h2 {
+	font-weight: 700;
+
+	text-align: center;
+
+	color: #ece3b6;
+}
+.service img {
+	max-width: 360px;
+}
+button {
+	transition: 0.3s;
+}
+button:hover {
+	opacity: 0.85;
+}
+.vrijednosti--content {
+	gap: 30px;
+}
+
+.kako-radi--text {
+	gap: 12px;
+}
+#kako {
+	gap: 30px;
+}
+.footer--text {
+	width: 100%;
+	gap: 24px;
+	max-width: 420px;
+}
+@media (width > 768px) {
+	#hero {
+		flex-direction: row;
+		/* position: relative; */
+		gap: 16px;
+	}
+	.video-banner {
+		/* position: absolute; */
+		order: 1;
+		width: 80vw;
+		right: -10vw;
+		min-width: 660px;
+		/* top: 50%; */
+		/* margin-right: -30vw; */
+		/* transform: translateY(-50%); */
+	}
+	.hero-main {
+		justify-content: center;
+		max-width: 430px;
+	}
+	#menu-btn {
+		display: none;
+	}
+	.menu-content {
+		position: relative;
+		flex-direction: row;
+		transform: translate(0);
+	}
+	.close-menu {
+		display: none;
+	}
+	.vrijednosti--content {
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		gap: 64px;
+	}
+	#vrednosti--grid {
+		height: min-content;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.stats {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: start;
+		max-width: 1000px;
+		width: 100%;
+		align-self: center;
+	}
+	.stats--container {
+		align-items: stretch;
+	}
+	.stats-desc {
+		align-self: center;
+	}
+	.footer--content {
+		flex-direction: row;
+		max-width: 800px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	footer {
+		justify-content: center;
+		align-items: center;
+		margin: 24px;
+		border-radius: 16px;
+	}
+	.service:nth-of-type(1),
+	.service:nth-of-type(3) {
+		flex-direction: row;
+	}
+	.service:nth-of-type(2) {
+		flex-direction: row;
+	}
+	.service:nth-of-type(2) picture {
+		order: 1;
+	}
+	#title-1::after {
+		z-index: -1;
+		content: 'Šetnje';
+		position: absolute;
+		left: calc(50% - 375px / 2 + 129.5px);
+		top: calc(50% - 139px / 2 - 217.5px);
+
+		font-weight: 600;
+		font-size: 114px;
+		line-height: 139px;
+
+		color: #ece3b6;
+	}
+	#title-2::after {
+		z-index: -1;
+		content: 'Čuvanje \aljubimaca';
+		position: absolute;
+		left: calc(50% - 685px / 2 - 157.5px);
+		top: calc(50% - 310px / 2 - 106px);
+		width: 500px;
+		font-weight: 600;
+		font-size: 114px;
+		line-height: 139px;
+
+		color: #ece3b6;
+	}
+	#title-3::after {
+		z-index: -1;
+		content: 'Dnevna njega';
+		position: absolute;
+		left: calc(50% - 545px / 2 + 350.5px);
+		top: calc(50% - 310px / 2 - 132px);
+
+		font-weight: 600;
+		font-size: 114px;
+		line-height: 139px;
+
+		color: #ece3b6;
+	}
+	.service img {
+		max-width: 50vw;
+	}
+	.services--title {
+		text-align-last: left;
+		padding-left: 24px;
+	}
+	.service--main--title {
+		font-size: 54px;
+		line-height: 100%;
+	}
+	.kako-radi h2 {
+		margin-top: 100px;
+	}
+	.services--title {
+		font-size: 72px;
+	}
+	.hero-main {
+		align-items: start;
+		justify-content: start;
+		padding-top: 82px;
+	}
+}
+.copyright {
+	font-size: 12px;
+	text-align: center;
+	color: #c7dbd0;
+}
+.kako-radi img {
+	width: 100%;
+	max-width: 720px;
+}
