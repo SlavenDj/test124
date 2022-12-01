@@ -67,7 +67,7 @@ function App() {
 					Otkrijte svijet njege Vaših kućnih ljubimaca
 				</div>
 				<div className='stats-desc'>
-					Psi su nevjerojatno društvena bića, pa se lako zaraze našom
+					Psi su nevjerovatno društvena bića, pa se lako zaraze našom
 					toplinom i radošću.
 				</div>
 				<div className='stats'>
