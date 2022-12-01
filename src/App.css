@@ -11,6 +11,8 @@
 #logotip {
 	height: 44px;
 }
+.logo {
+}
 #menu-btn {
 	border: none;
 	background: none;
@@ -97,6 +99,9 @@
 	font-size: 1.25rem;
 	line-height: 1.5rem;
 }
+.vrednost--desc {
+	line-height: 140%;
+}
 #vrednosti--grid {
 	width: 100%;
 	display: grid;
@@ -113,6 +118,7 @@
 #feeding-dog-img {
 	max-width: 400px;
 	width: 100%;
+	align-self: center;
 }
 footer {
 	background: #0b4a26;
@@ -283,14 +289,14 @@ button:hover {
 	#hero {
 		flex-direction: row;
 		/* position: relative; */
-		gap: 16px;
+		gap: 48px;
 	}
 	.video-banner {
 		/* position: absolute; */
 		order: 1;
-		width: 80vw;
-		right: -10vw;
-		min-width: 660px;
+		/* width: 80vw; */
+		/* right: -10vw; */
+		min-width: 55%;
 		/* top: 50%; */
 		/* margin-right: -30vw; */
 		/* transform: translateY(-50%); */
@@ -306,6 +312,7 @@ button:hover {
 		position: relative;
 		flex-direction: row;
 		transform: translate(0);
+		gap: 20px;
 	}
 	.close-menu {
 		display: none;

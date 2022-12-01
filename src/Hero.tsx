@@ -51,9 +51,9 @@ export function Hero() {
 
 			<div className='hero-main'>
 				<div className='hero--text'>
-					<h1>Vaš asistent u uzdržavanju kućnih ljubimaca</h1>
+					<h1>Vaš asistent u vođenju brige o kućnim ljubimcima</h1>
 					<p className='hero--paragraph'>
-						Rezervirajte pouzdane šetače i čuvare pasa.
+						Rezervišite lokalne šetače i čuvare pasa.
 					</p>
 				</div>
 				{CTA()}

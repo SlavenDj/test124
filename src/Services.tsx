@@ -17,7 +17,7 @@ export function Services() {
 				title={'Šetnje'}
 				indexs='1'
 				desc={
-					'Tijekom užurbanog dana ili kada Vam je potrebno opuštanje, uvijek možete brzo zakazati šetnju. Vaš pas vježba i troši energiju dok šeta u već poznatom susjedstvu.'
+					'Tokom užurbanog dana ili kada Vam je potrebno opuštanje, uvijek možete brzo zakazati šetnju. Vaš pas vježba i troši energiju dok šeta u već poznatom komšiluku.'
 				}
 			></Service>
 			<Service
@@ -26,7 +26,7 @@ export function Services() {
 				title={'Čuvanje ljubimaca'}
 				indexs='2'
 				desc={
-					'Čuvari će Vašem psu posvetiti svu moguću pažnju. Dok ste na odmoru, poslovnu putu, posjeti obitelji ili prijatieljima, pas će dobiti svu potrebnu njegu i ljubav.'
+					'Pronađite čuvara koji će odgovarati potrebama Vašeg psa i posvetiti mu svu moguću pažnju. Dok ste na odmoru, poslovnom putu, posjeti obitelji ili prijateljima, pas će dobiti svu potrebnu njegu i ljubav.'
 				}
 			></Service>
 			<Service
@@ -35,7 +35,7 @@ export function Services() {
 				title={'Dnevna njega'}
 				indexs='3'
 				desc={
-					'Nema više stresa za Vas i Vašeg psa. Ostavite psa kod čuvara i preuzmite ga sretnog kroz par sati.'
+					'Nema više stresa za Vas i Vašeg psa dok ste na poslu. Ostavite psa ujutru kod čuvara u blizini i preuzmite ga sretnog i zadovoljnog navečer.'
 				}
 			></Service>
 		</div>

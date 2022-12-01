@@ -33,7 +33,9 @@ export function Vrednosti(
 							<div className='vrednost--title'>
 								{vrednost.title}
 							</div>
-							<div>{vrednost.description}</div>
+							<div className='vrednost--desc'>
+								{vrednost.description}
+							</div>
 						</div>
 					))}
 				</div>

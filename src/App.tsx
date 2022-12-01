@@ -32,23 +32,26 @@ function App() {
 		{
 			icon: 'lock',
 			title: 'Sigurnost',
-			description: 'Osiguranje za pse u tijeku šetnje',
+			description:
+				'Osiguranje za pse i šetače/čuvare u toku šetnji i čuvanaja. Prioritet nam je da se sve strane za vrijeme trajanja šetnje/čuvanja osjećaju sigurno.',
 		},
 		{
 			icon: 'menu_book',
 			title: 'Znanje',
-			description: 'Svi šetači ce proći obuku',
+			description:
+				'Svi šetači i čuvar će morati proći i položiti obuku prije nego postanu dostupni na apliakciji kako bi osigurali da oni koji pružaju usluge su zaista kompetentni.',
 		},
 		{
 			icon: 'verified_user',
 			title: 'Provjerenost',
 			description:
-				'Svi korisnici aplikacije imaju ID verifikaciju i provjeru pouzdanosti',
+				'Svi šetači i čuvari će proći proces identifikacije i provjere prije nego što postanu dostupni na apliakciji. Želimo da kreiramo i gajimo odnose zasnovane na transparentnosti.',
 		},
 		{
 			icon: 'emoji_emotions',
 			title: 'Jednostavnost',
-			description: 'Brzo i efikasno ponalaženje usluga',
+			description:
+				'Brzo i efikasno ponalaženje usluga i korištenje apliakcije uz jednostavan i intuitivan korisnički interface.',
 		},
 	];
 	return (
