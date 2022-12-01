@@ -80,6 +80,10 @@
 	border-radius: 6px;
 	background-size: cover;
 	overflow: hidden;
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
 }
 .video-banner img {
 	height: 100%;
@@ -123,6 +127,7 @@
 footer {
 	background: #0b4a26;
 	padding: 1.5rem;
+	position: relative;
 }
 footer img {
 	width: 220px;
@@ -144,6 +149,7 @@ footer .call-to-action {
 	gap: 24px;
 	align-items: center;
 	max-width: 1080px;
+	color: #c7dbd0;
 }
 .footer--title {
 	font-weight: 600;
@@ -185,6 +191,10 @@ footer a {
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
+	pointer-events: none;
+}
+#demo-video {
+	max-width: 800px;
 }
 .service {
 	gap: 24px;
@@ -284,6 +294,34 @@ button:hover {
 	width: 100%;
 	gap: 24px;
 	max-width: 420px;
+}
+#credits-pop-up {
+	position: absolute;
+	/* bottom: 24px;
+	left: 24px;
+	right: 24px; */
+	gap: 1rem;
+	bottom: 0;
+	padding: 24px;
+	right: 0;
+	left: 0;
+	color: var(--green);
+	background: var(--white);
+	text-align: center;
+	border-radius: 8px 8px 0 0;
+}
+#credits-pop-up a {
+	color: var(--green);
+}
+.credits {
+	position: relative;
+}
+.close-credits {
+	padding: 8px;
+	font-size: 1.25rem;
+	border: none;
+	background: none;
+	font-weight: 500;
 }
 @media (width > 768px) {
 	#hero {

@@ -1,7 +1,9 @@
 import dogFooterCircle from './assets/circle-dog.png';
 import dogFooterDesktop from './assets/dogFooter.png';
 import { Icon } from '@iconify/react';
+import { useState } from 'react';
 export function Footer() {
+	const [showCredits, setShowCredits] = useState(false);
 	return (
 		<footer id='konakt'>
 			<div className='footer--content'>
@@ -74,8 +76,32 @@ export function Footer() {
 							</a>
 						</div>
 						<div className='footer--more'>
-							<a href='/credits.txt'>Credits</a>
+							<div
+								onClick={() => {
+									setShowCredits(true);
+								}}
+							>
+								Credits
+							</div>
 						</div>
+						{showCredits && (
+							<div className='credits' id='credits-pop-up'>
+								<div>
+									<a href='https://www.freepik.com/free-vector/dog-owner-color-set_26762035.htm#query=isometric%20dog%20walking&position=0&from_view=search&track=ais'>
+										Image by macrovector
+									</a>{' '}
+									on Freepik
+								</div>
+								<button
+									onClick={() => {
+										setShowCredits(false);
+									}}
+									className='close-credits'
+								>
+									Zatvori
+								</button>
+							</div>
+						)}
 						<div className='copyright'>Copyright 2022 Šapa</div>
 					</div>
 				</div>
