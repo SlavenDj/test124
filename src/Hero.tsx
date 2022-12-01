@@ -15,7 +15,7 @@ export function Hero() {
 			></div> */}
 			<div className='video-banner'>
 				<img
-					src={heroImg}
+					src='./video-banner.png'
 					alt=''
 					onClick={() => {
 						setShowVideo(!showVideo);
