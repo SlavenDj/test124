@@ -5,17 +5,17 @@ import logo from './assets/logo.svg';
 export function Header() {
 	const [isMenuShowen, setIsMenuShowen] = useState(false);
 	const [scrollPosition, setScrollPosition] = useState(0);
+	const [showHeader, setShowHeader] = useState(true);
 	function toggleMenu() {
 		setIsMenuShowen(!isMenuShowen);
 	}
 	function scroll() {
-		// if (scrollPosition < window.scrollY) hideHeader();
-		// if (scrollPosition > window.scrollY) showHeader();
+		setShowHeader(scrollPosition > window.scrollY);
 		setScrollPosition(window.scrollY);
 	}
 	window.addEventListener('scroll', scroll);
 	return (
-		<header>
+		<header className={`${!showHeader && 'header-hide'}`}>
 			<a href='/'>
 				{/* <img src={logo} alt='' id='logotip' /> */}
 				<div id='logotip'>

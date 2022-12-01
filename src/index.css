@@ -14,8 +14,11 @@ body {
 	font-family: 'Montserrat';
 	background: var(--white);
 	max-width: 100vw;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 	scroll-behavior: smooth;
+}
+body {
+	background-image: url('./assets//pattern.svg');
 }
 body:has(.video),
 html:has(.video)
@@ -36,11 +39,24 @@ header {
 }
 header {
 	/* position: fixed; */
+	position: sticky;
+	max-width: 100vw;
+	transition: 0.3s;
+	overflow: hidden;
+	top: 0;
+	background-color: var(--white);
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding: 24px;
+	z-index: 1;
 }
+.header-hide {
+	transform: translateY(-100%);
+}
+/* header:has(.show-menu) {
+	position: static;
+} */
 iframe {
 	border-radius: 6px;
 	width: 100%;
